@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VeganHof - Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<style>
+		*{
+	margin: 0;padding: 0;box-sizing: border-box; 
+}
+
+header{
+	min-height:100vh;
+	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url("VEGANHOF FULL 3840X2160.png");
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-size: cover;
+}
+
+nav{
+	width: 100%;height: 15vh;
+	background: rgba(0,0,0,0.2);
+	color: white;display: flex;justify-content: space-between;
+	align-items: center;text-transform: uppercase;
+}
+
+nav .logo{
+	width: 25%;text-align: center;
+	/*background: red;*/
+}
+
+nav .menu{
+	width: 40%;
+	display: flex;justify-content: space-around;
+}
+
+nav .menu a{
+	width: 25%;
+	text-decoration: none; color: white;
+	font-weight: bold;	 
+}
+
+nav .menu a:first-child{
+	color: #00b894;
+
+}
+
+main{
+	height: 100%;
+	width: 85vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;color: white;
+}
+
+section{
+
+}
+
+section h3{
+	font-size: 35px;font-weight: 200;letter-spacing: 3px;
+	text-shadow: 1px 1px 2px black;
+}
+
+section h1{
+	margin: 30px; 0 20px 0;
+	font-size: 55px;
+	font-weight: 700;
+	text-shadow: 2px 1px 5px black;
+	text-transform: uppercase;
+}
+
+section p{
+	font-size: 25px;
+	color: #eee;
+	white-space: 2px;
+	margin-bottom: 25px;
+	text-shadow: 1px 1px 1px black;
+	text-align: right;
+
+}
+
+section a{
+	padding: 12px 30px;
+	border-radius: 4px;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 1px;
+	transition: all .5s ease;
+}
+
+section .btnone{
+    /*background: #00b894;*/
+    background: #fff;
+    color: #000;
+}
+.btnone:hover{
+	background: #00b894;
+	color: white; 
+}
+
+section .btntwo{
+	background: #00b894;
+	color: white; 
+}
+
+.btntwo:hover{
+	background: #fff;
+    color: #000;
+}
+
+.change_content:after{
+	content: '';
+	animation: changetext 5s infinite linear;
+	color: #ec8e13;
+}
+.change_content2:after{
+	content: '';
+	animation: changetext2 5s infinite linear;
+	color: #b80600;
+}
+
+@keyframes  changetext{
+	0%{content: "FOUNTAIN OF YOUTH"}
+	25%{content: "ALL DAY ENERGY"}
+	50%{content: "BEAUTY"}
+	75%{content: "FULL BODY DETOX"}
+	100%{content: "IMMUNITY BOOSTING"}
+}
+@keyframes  changetext2{
+	0%{content: "ESSENTIAL GREENS"}
+	20%{content: "TROPICAL PUNCH"}
+	40%{content: "NORDIC BERRIES"}
+	60%{content: "EXOTIC BERRIES"}
+	80%{content: "VEGAN PROTEIN"}
+	100%{content: "RED BERRIES"}
+}
+        </style>		
+</head>
+<body>
+
+<header>
+	
+	<nav>
+		
+		
+		<img src=Veganhof-logo.png width="200" height="78" alt="VeganHof®" id="logo" data-height-			percentage="54" data-actual-					width="1263.33" data-actual-height="493.958">
+		</div>
+		<div class="menu">
+			<a href="#">Home</a>
+			<a href="#">Gallery</a>
+			<a href="#">About</a>
+			<a href="#">Contact</a>
+		</div>
+		</nav>
+		<main>
+			<section>
+				<h3>Welcome to VeganHof</h3>
+				<p></p>
+				<h4>Discover the goodness of plant-based living.</h4><br>
+				<h3><b>Smoothie Flavours<br><span class="change_content"> </span></h3>  <h3><b>Protien Flavours<br><span class="change_content2"> </span></h3></b></h3>
+				<br><br><i><h4>Buy your Favourite Organic Mix</h4></i>
+				<br><br>
+				<marquee><p style="color:rgb(1, 1, 1)">"India's Purest Organic ----- 100% BIO"</p></marquee>
+				<a  text-align: center , class="btnone">Buy Now</a>
+			</section>
+		</main>
+	
+</header>
+</body>
+</html>
